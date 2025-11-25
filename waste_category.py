@@ -1,19 +1,19 @@
 import random
 def category_waste_quiz():
-    # --- Game Data ---
+#Game Data 
 # Dictionary containing waste items and their correct disposal categories.
 # Categories: 1=Recycling (blue), 2=Compost (green), 3=Landfill (black/grey)
    
     wastes_type = {"Aluminum Can (Rinsed)": 1,
-    "Plastic Milk Jug": 1,
-    "Clean Cardboard Box (Flattened)": 1,
+    "Plastic  Jug": 1,
+    "Cardboard Box (Flattened)": 1,
     "Newspaper": 1,
-    "Glass Jar (Rinsed)": 1,
+    "Glass Jar ": 1,
     "Coffee Grounds": 2,
     "Banana Peel": 2,
     "Apple Core": 2,
     "Yard Waste (Leaves, Grass)": 2,
-    "Pizza Box (Greasy)": 3,
+    "Pizza Box": 3,
     "Plastic Bag/Wrap": 3,
     "Broken Ceramic Plate": 3,
     "Styrofoam Container": 3,
@@ -49,7 +49,7 @@ def category_waste_quiz():
         if player_guess == correct_category:
             # if it matches properly, increase the score
             score += 1
-            print(f"Correct! Category: {correct_category}. Your current score is **{score}**.")
+            print(f"Correct! Category: {correct_category}. Your current score is {score}.")
             
             # Remove the item so it doesn't get asked again
             L.remove(random_item)
@@ -58,11 +58,11 @@ def category_waste_quiz():
         
         else:
             # else break the loop and display the total score.
-            print(f"\nIncorrect! The correct category for **{random_item}** was **{correct_category}**.")
+            print(f"\nIncorrect! The correct category for {random_item} was {correct_category}.")
             break # Exit the game loop
             
     # Display the final score outside the loop
-    print(f"\nGame Over! Your final score is **{score}**.")
+    print(f"\nGame Over! Your final score is {score}.")
 
 # Execute the function to start the game
 if __name__ == "__main__":
