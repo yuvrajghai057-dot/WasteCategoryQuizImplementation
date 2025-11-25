@@ -1,8 +1,8 @@
-# ♻️ Waste Category Quiz
+#  Waste Category Quiz
 
 A simple, command-line Python game designed to test your knowledge of waste sorting and disposal. Sharpen your recycling skills by correctly assigning common household items to the right bin!
 
-## 🎯 How to Play
+##  How to Play
 
 The game is a **streak challenge**. You are presented with a random waste item and must input the correct category number.
 
@@ -12,24 +12,7 @@ The game is a **streak challenge**. You are presented with a random waste item a
 
 The game continues until you make one incorrect guess, or successfully categorize all items.
 
-## 🚀 Getting Started
 
-### Prerequisites
-
-You only need **Python 3** installed on your system.
-
-### Running the Game
-
-1.  **Clone the Repository** (assuming you've uploaded the code):
-    ```bash
-    git clone [YOUR_GITHUB_REPO_URL]
-    cd waste-category-quiz
-    ```
-
-2.  **Execute the Script:**
-    ```bash
-    python waste_quiz.py
-    ```
 
 ## 📊 Game Data & Categories
 
