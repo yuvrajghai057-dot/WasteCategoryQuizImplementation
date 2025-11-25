@@ -1,12 +1,12 @@
 # 5.2 statement.md
 
-## 🗑️ Problem Statement
+##  Problem Statement
 
 Many individuals struggle with correctly **sorting household waste** into the appropriate categories: **Recycling**, **Compost**, and **Landfill**. This confusion leads to high rates of contamination in recycling and composting streams, reducing their effectiveness and increasing the amount of waste sent to landfills. The problem is a lack of readily available, engaging, and simple educational tools to reinforce correct waste disposal knowledge.
 
 ---
 
-## 🎯 Scope of the Project
+##  Scope of the Project
 
 The project is a **single-player interactive quiz application** called "Waste Category Quiz."
 
@@ -16,15 +16,11 @@ The project is a **single-player interactive quiz application** called "Waste Ca
     * The core game loop: present a random item, accept user input for the category (1, 2, or 3), check the answer, update the score, and remove the item from the pool.
     * **Sudden-death gameplay**: the game ends immediately upon the first incorrect guess.
     * Displaying the final score upon game termination.
-* **Out of Scope:**
-    * A graphical user interface (GUI) or web interface.
-    * Extensive item database (the list remains fixed as defined in the code).
-    * User accounts, saving scores, or leaderboards.
-    * In-depth explanations or educational material beyond the category definitions.
+
 
 ---
 
-## 🧑‍🤝‍🧑 Target Users
+##  Target Users
 
 The primary target users are individuals seeking to improve their **waste sorting knowledge** in a fun, quick, and engaging format.
 
@@ -34,7 +30,7 @@ The primary target users are individuals seeking to improve their **waste sortin
 
 ---
 
-## ✨ High-Level Features
+##  High-Level Features
 
 * **Interactive Quiz Interface:** A simple command-line interface that clearly prompts the user with a waste item.
 * **Category Definitions:** Clear presentation of the three disposal categories at the start of the game: **1=Recycling (blue)**, **2=Compost (green)**, **3=Landfill (black/grey)**.
